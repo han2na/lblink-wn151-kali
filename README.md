@@ -4,7 +4,7 @@ Driver LBlink WN151 Kali
 - reboot
 - sudo apt-get install build-essential git dkms linux-headers-$(uname -r)
 - git clone https://github.com/han2na/lblink-wn151-kali.git
-- sudo dkms add ./rtl8188fu
-- sudo dkms build rtl8188fu/1.0 
-- sudo dkms install rtl8188fu/1.0
-- sudo cp ./rtl8188fu/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/ 
+- sudo dkms add ./lblink-wn151-kali
+- sudo dkms build lblink-wn151-kali/1.0 
+- sudo dkms install lblink-wn151-kali/1.0
+- sudo cp ./lblink-wn151-kali/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/ 
